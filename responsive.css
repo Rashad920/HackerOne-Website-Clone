@@ -1,0 +1,89 @@
+        /* @media (min-width:1200px) and (max-width:1400px) {
+            .home .container {
+                display: flex;
+                justify-content: center;
+                height: 690px;
+                padding: 60px 60px 30px 60px;
+                width: 100%;
+                position: relative;
+                margin: 0 auto;
+            }
+            .home .homeLeft {
+                width: 50%;
+            }
+            .home .homeRight {
+                width: 50%;
+            }
+            .home .homeRight img {
+                width: 600px;
+                height: 600px;
+            }
+        }
+        
+        @media (min-width:400px) and (max-width:500px) {
+
+            .home .container {
+                width: 100%;
+                height: 350px;
+            }
+            .home .homeRight {
+                width: 50%;
+            }
+            .home .homeLeft {
+                width: 50%;
+            }
+            .home .homeLeft h1 {
+                font-size: 20px;
+                font-family: impact;
+            }
+            .home .homeRight img {
+                width: 350px;
+                height: 280px;
+            }
+            .home .homeLeft button {
+                margin-top: 30px;
+                padding: 8px 20px;
+                background: #E41473;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .getReward .container {
+                display: flex;
+                justify-content: center;
+                height: 880px;
+                width: 100%;
+                margin: 0 auto;
+                padding: 30px 60px 60px 60px;
+                position: relative;
+            }
+            .getReward .container .getRewardLeft {
+                display: flex;
+                width: 100%;
+            }
+            
+            .getReward .container .getRewardLeft img {
+                width: 550px;
+                height: 440px;
+            }
+            
+            .getReward .container .getRewardRight {
+                display: flex;
+                width: 100%;
+            }
+            
+            .getReward .container .getRewardRight h1 {
+                font-weight: bolder;
+                font-size: 40px;
+                padding-bottom: 30px;
+            }
+            
+            .getReward .container .getRewardRight p {
+                width: 550px;
+                text-align: justify;
+                font-size: 20px;
+            }
+            
+        } */

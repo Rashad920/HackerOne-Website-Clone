@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topHeader {
+    background: #ddd;
+}
+
+.container_fluid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 40px;
+    min-height: 30px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.headLinks span a {
+    text-decoration: none;
+}
+
+.headLinks .span1 {
+    color: #EC1377;
+    padding-right: 10px;
+    border-right: 2px solid #686868;
+}
+
+.headLinks .span2 {
+    padding: 0 10px;
+    border-right: 2px solid #686868;
+    color: #474747
+}
+
+.headLinks .span3 {
+    padding: 0 10px;
+    border-right: 2px solid #686868;
+    color: #474747
+}
+
+.headLinks .span4 {
+    padding: 0 30px 0 10px;
+    color: #474747
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.mainMenu .container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px;
+}
+
+.mainMenu .container .logo {
+    padding: 10px 0;
+}
+
+.mainMenu .container .logo a {
+    text-decoration: none;
+    font-weight: 1200;
+    color: #EC1377;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.mainMenu .container .logo .one {
+    font-weight: 50;
+    color: #ff0077;
+}
+
+.mainMenu .container .nav_bar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.mainMenu .container .nav_bar .navbar_item .navbar_link {
+    text-decoration: none;
+    padding: 0px 12px;
+    font-weight: bold;
+    color: #101010;
+}
+
+.mainMenu .container .nav_bar .navbar_item .btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: #E41473;
+}
+
+
+/*Header end */
+
+.home .container {
+    display: flex;
+    justify-content: center;
+    height: 690px;
+    padding: 60px 60px 30px 60px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.home .homeLeft {
+    width: 50%;
+}
+
+.home .homeLeft p {
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.home .homeLeft p span {
+    font-weight: 900;
+    color: rgb(87, 87, 87);
+}
+
+.home .homeLeft h1 {
+    font-size: 60px;
+    font-family: impact;
+}
+
+.home .homeLeft button {
+    margin-top: 60px;
+    padding: 13px 25px;
+    background: #E41473;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.home .homeRight {
+    width: 50%;
+}
+
+.home .homeRight img {
+    width: 540px;
+    height: 600px;
+}
+
+
+/*Home section end */
+
+.getReward .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 60px 60px 60px;
+    position: relative;
+}
+
+.getReward .container .getRewardLeft {
+    width: 50%;
+}
+
+.getReward .container .getRewardLeft img {
+    width: 550px;
+    height: 440px;
+}
+
+.getReward .container .getRewardRight {
+    width: 50%;
+}
+
+.getReward .container .getRewardRight h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.getReward .container .getRewardRight p {
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/*Get Reward End */
+
+.joinTheCommunity {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 440px;
+    padding: 30px 0px 60px 0px;
+}
+
+.joinTheCommunity .container {
+    background: url("img/slide-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    height: 350px;
+    width: 100%;
+}
+
+.joinTheCommunity .container h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.joinTheCommunity .container button {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background: #E41473;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+/* Join the community end*/
+
+.LearnHow .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px 60px 60px;
+    position: relative;
+}
+
+.LearnHow .container .learnHowLeft {
+    width: 50%;
+}
+
+.LearnHow .container .learnHowLeft img {
+    width: 550px;
+    height: 440px;
+}
+
+.LearnHow .container .learnHowRight {
+    width: 50%;
+}
+
+.LearnHow .container .learnHowRight h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.LearnHow .container .learnHowRight p {
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.LearnHow .container .learnHowRight button {
+    margin-top: 40px;
+    padding: 13px 25px;
+    background: #E41473;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/*Learn How end*/
+
+.burpSuite .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px 60px 60px;
+    position: relative;
+}
+
+.burpSuite .container .burpSuiteLeft {
+    width: 50%;
+}
+
+.burpSuite .container .burpSuiteRight {
+    width: 50%;
+}
+
+.burpSuite .container .burpSuiteLeft h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.burpSuite .container .burpSuiteLeft p {
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.burpSuite .container .burpSuiteLeft button {
+    margin-top: 40px;
+    padding: 13px 25px;
+    background: #E41473;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.burpSuite .container .burpSuiteRight img {
+    width: 550px;
+    height: 440px;
+}
+
+
+/*Burp Suite end */
+
+.Hacktivity {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 440px;
+    padding: 30px 0px 60px 0px;
+}
+
+.Hacktivity .container {
+    background: url("img/slide-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    height: 350px;
+    width: 100%;
+}
+
+.Hacktivity .container h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Hacktivity .container button {
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background: #E41473;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+/*Hacktivity end */
+
+.LeaderBoard .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px 60px 60px;
+    position: relative;
+}
+
+.LeaderBoard .container .LeaderBoardLeft {
+    width: 650px;
+}
+
+.LeaderBoard .container .LeaderBoardRight {
+    width: 650px;
+}
+
+.LeaderBoard .container .LeaderBoardLeft h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.LeaderBoard .container .LeaderBoardLeft p {
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.LeaderBoard .container .LeaderBoardLeft button {
+    margin-top: 40px;
+    padding: 13px 25px;
+    background: #E41473;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.LeaderBoard .container .LeaderBoardRight img {
+    width: 550px;
+    height: 440px;
+}
+
+
+/* Leader board end*/
+
+.LiveHacking .container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 60px 0px 60px;
+    position: relative;
+}
+
+.LiveHacking .container .LiveHackingLeft {
+    width: 50%;
+}
+
+.LiveHacking .container .LiveHackingLeft img {
+    width: 550px;
+    height: 440px;
+}
+
+.LiveHacking .container .LiveHackingRight {
+    width: 50%;
+}
+
+.LiveHacking .container .LiveHackingRight h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.LiveHacking .container .LiveHackingRight p {
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.LiveHacking .container .LiveHackingRight button {
+    margin-top: 40px;
+    padding: 13px 25px;
+    border: 2px solid #E41473;
+    outline: none;
+    color: #E41473;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/*live hacking end*/
+
+.strengthen {
+    width: 95%;
+    height: 250px;
+}
+
+.strengthen .container {
+    width: 95%;
+    height: 250px;
+    background: #e41473;
+    padding: 30px 60px 30px 60px;
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    top: 4210px;
+}
+
+.strengthen .container h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.strengthen .container p {
+    font-size: 20px;
+    width: 85%;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.strengthen .container button {
+    padding: 13px 25px;
+    background: white;
+    border: none;
+    outline: none;
+    color: #E41473;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Footer {
+    width: 100%;
+    height: 375px;
+    background: black;
+    position: relative;
+    color: white;
+    padding: 100px 60px 60px 60px;
+}
+
+.Footer .footerTop .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Footer .footerTop .container .logo,
+.solutions,
+.company {
+    width: 33.33333%;
+}
+
+.Footer .footerTop .container .logo h1 {
+    font-size: 40px;
+    margin-top: -65px;
+}
+
+.Footer .footerTop .container .solutions h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Footer .footerTop .container .solutions li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.Footer .footerTop .container .company h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Footer .footerTop .container .company li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.Footer .footerBtm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer .footerBtm .copyright {
+    color: #ddd;
+}
+
+.Footer .footerBtm .TPS span a {
+    color: #ddd;
+}
